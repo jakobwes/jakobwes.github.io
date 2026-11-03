@@ -1,0 +1,11 @@
+{%- comment -%}
+  Adds volume(issue) and pages after the journal name on the publications page,
+  e.g. "Quarterly Journal of the Royal Meteorological Society, 150(761), 2147–2167, 2024".
+  The theme includes this file automatically if it exists; delete it to go back to journal and year only.
+{%- endcomment -%}
+{%- if entry.volume -%}
+  {%- capture entrytype -%}{{ entrytype }}, {{ entry.volume }}{% if entry.number %}({{ entry.number }}){% endif %}{%- endcapture -%}
+{%- endif -%}
+{%- if entry.pages -%}
+  {%- capture entrytype -%}{{ entrytype }}, {{ entry.pages | replace: '--', '–' }}{%- endcapture -%}
+{%- endif -%}

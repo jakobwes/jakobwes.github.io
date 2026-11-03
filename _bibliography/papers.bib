@@ -1,0 +1,216 @@
+---
+---
+
+% Publications, grouped by year on the publications page (newest first).
+% Useful fields: doi, arxiv (ID only), code, pdf, html, abbr (venue badge),
+% abstract (adds an "Abs" button), note (shown below the entry),
+% selected = {true} (shows it on the home page if selected_papers is switched on in _pages/about.md).
+% Joint first authorship: add * after the surname, e.g. {Spuler*, Fiona and Wessel*, Jakob}
+% Conference abstracts and data/software records from Zotero are deliberately left out.
+
+% ---------------------------------------------------------------- preprints
+
+@article{wessel2026aiwp,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Probabilistic {AI} models outperform numerical weather prediction models on record breaking heat extremes},
+  author      = {Wessel, Jakob Benjamin and Spuler, Fiona Raphaela and Ferro, Christopher A. T. and Kretschmer, Marlene and Sippel, Sebastian},
+  journal     = {arXiv preprint arXiv:2610.20519},
+  year        = {2026},
+  month       = oct,
+  arxiv       = {2610.20519},
+  abstract    = {AI weather prediction (AIWP) models have emerged as a key complement to physics-based numerical weather prediction (NWP) models, and now often outperform them on aggregate skill. Yet, several studies report that physics-based models still forecast extreme events better, in particular record-breaking extremes, based on the evaluation of deterministic forecasts. Here we evaluate heat extreme forecasts from probabilistic AIWP models over global land and show that they clearly outperform the ECMWF IFS ensemble, both raw and post-processed, including for record-breaking events, in all regions and at all lead times considered. AIWP models better forecast the occurrence and intensity of extremes, are better calibrated in the tail and miss fewer records. Station observations confirm these results. We argue that many reported AIWP limitations stem from unsuitable verification choices, specifically comparing deterministic forecasts that target different quantities. Instead, a fair evaluation of extremes necessitates probabilistic verification.}
+}
+
+@article{wessel2026recalibration,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Towards calibrated probabilistic forecasts for events of interest via outcome-conditional recalibration},
+  author      = {Wessel, Jakob Benjamin and Allen, Sam},
+  journal     = {arXiv preprint arXiv:2610.10076},
+  year        = {2026},
+  month       = oct,
+  arxiv       = {2610.10076},
+  abstract    = {Calibration is an essential requirement for probabilistic predictions to be useful for decision making. While state-of-the-art prediction methods often yield miscalibrated predictive distributions, several post-hoc recalibration schemes have been proposed to generate calibrated predictions. However, popular recalibration schemes can conceal miscalibration in specific regions of the outcome space. Since particular outcomes, such as extreme events, often matter most for decision making, probabilistic predictions should be calibrated when evaluation is restricted to these outcomes. Hence, in this paper, we introduce outcome-conditional recalibration, a post-hoc method to recalibrate probabilistic predictions on user-defined regions of the outcome space. The method is simple, easy to implement, and can be applied to arbitrary predictive distributions. It works by applying the quantile recalibration approach of Kuleshov et al. (2018) to forecast conditional distributions, before rescaling these conditional distributions so that forecast event probabilities match empirical occurrence frequencies. This produces valid and continuous predictive distributions that are calibrated within each region of interest. Across regression benchmarks, we demonstrate that existing recalibration schemes do not necessarily yield calibrated predictions when interest is on particular outcomes, and that our approach improves outcome-conditional calibration relative to existing conditional and unconditional recalibration methods, while retaining competitive calibration overall. In an application to day-ahead electricity price forecasting, the approach substantially improves calibration when predicting negative prices, at negligible cost to forecast accuracy.}
+}
+
+@article{ribeiro2026fire,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Ensemble-based global fire modeling as a tool to characterize extreme wildfire events},
+  author      = {Ribeiro, Andreia F. S. and Billing, Maik and Thonicke, Kirsten and von Bloh, Werner and Wessel, Jakob Benjamin and Undorf, Sabine and Forkel, Matthias and Zscheischler, Jakob},
+  journal     = {EGUsphere preprint},
+  year        = {2026},
+  month       = jun,
+  doi         = {10.5194/egusphere-2026-2952},
+  note        = {Under review at Earth System Dynamics.},
+  abstract    = {Understanding the full range of possible extreme wildfire events is crucial for risk assessment and adaptation planning. While the historical record offers only one realization of climate, large ensemble simulations sample a broader range of physically plausible climate trajectories, enabling the assessment of rare but realistic extreme events beyond what the observational record alone can reveal. Here we drive the process-based dynamic vegetation-fire model LPJmL-SPITFIRE at the global scale with different climate inputs to produce three sets of simulations: a 40 member large ensemble (40 members × 36 years sample), a single member drawn from the same ensemble (36 years sample), and a reanalysis-driven simulation (36 years sample), with the latter two each representing only a single trajectory of the climate system. This design enables direct comparison of how these two single realizations (single member and reanalysis) versus large ensemble simulations sample the most extreme fire events. We demonstrate that the single realizations are not suited to study risks associated with the most extreme events in fire danger, burned area, and fire carbon emissions that would be possible under current climate conditions. As expected, the highest values in these runs are typically much lower than those of the large ensemble in most regions. The undersampling of extremes by single realizations is greater for fire impacts (burned area and carbon emissions) than for fire danger, highlighting that vegetation–fire feedbacks interact nonlinearly with internal climate variability. While large ensembles reveal more extreme possible events than those simulated with reanalysis and a single climate model ensemble member, they also enable a more robust analysis of the relationship between extreme fire danger and extreme impacts. In particular, the most extreme burned area and emissions do not always coincide with the most extreme fire danger, underscoring the role of non-climatic factors such as ignitions and fuels. Specifically, years with global maximum impacts may occur in years with global fire danger 4.6\,\% – 8.4\,\% lower than the maximum. The findings demonstrate that modeling a broader range of physically plausible wildfire events through large ensemble simulations can help identify the mechanisms leading to the most extreme and high-impact events.}
+}
+
+@article{burton2026wildfires,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {State of Wildfires 2025--2026},
+	author      = {Burton, Chantelle and Di Giuseppe, Francesca and Jones, Matthew W. and Kelley, Douglas I. and Barbosa, Maria L. F. and McNorton, Joe and Potts, Robert and Segura-Garcia, Carlota and Abatzoglou, John T. and Alin Rosu, Iulian and Andela, Niels and Anderson, Liana O. and Archibald, Sally and Brambleby, Esther and Chuvieco, Emilio and Ciavarella, Andy and Clarke, Hamish and De La Barrera, Francisco and Di Bella, Carlos M. and Di Tomaso, Enza and Dintwe, Kebonye and Doherty, Tim S. and Donovan, Victoria M. and Eden, Jonathan M. and Fernandes, Paulo M. and Fiedler, Lukas and Giglio, Louis and Haas, Olivia and Hamilton, Douglas and Hantson, Stijn and Harris, Sarah and Hartley, Andrew J. and Keeping, Theodore R. and Kolden, Crystal A. and Kouassi, Jean-Luc and Kukavskaya, Elena and Lampe, Seppe and Liu, Zhongwei and Mataveli, Guilherme and Meier, Sarah and Oom, Duarte and Parrington, Mark and Qu, Yuquan and Resco De Dios, Victor and Ruffault, Julien and Sadegh, Mojtaba and Santín, Cristina and Sedano, Fernando and Shuman, Jacquelyn K. and Silva, Patrícia S. and Spuler, Fiona R. and Steinmann, Carmen B. and Tanpipat, Veerachai and Torres-Vazquez, Miguel Ángel and Turco, Marco and Van Der Werf, Guido R. and Van Wees, Dave and Veraverbeke, Sander and Wessel, Jakob B. and Zheng, Bo},
+  journal     = {Earth System Science Data Discussions},
+  year        = {2026},
+  doi         = {10.5194/essd-2026-587},
+  note        = {Accepted at Earth System Science Data.}
+}
+
+% ---------------------------------------------------------------- 2026
+
+@article{wessel2026tail,
+  abbr        = {IJF},
+  bibtex_show = {true},
+  title       = {Enforcing tail calibration when training probabilistic forecast models},
+  author      = {Wessel, Jakob Benjamin and Schillinger, Maybritt and Kwasniok, Frank and Allen, Sam},
+  journal     = {International Journal of Forecasting},
+  volume      = {42},
+  number      = {4},
+  pages       = {1336--1356},
+  year        = {2026},
+  month       = jun,
+  doi         = {10.1016/j.ijforecast.2026.04.009},
+  abstract    = {Probabilistic forecasts are typically obtained using state-of-the-art statistical and machine learning models, with model parameters estimated by optimizing a proper scoring rule over a set of training data. If the model class is not correctly specified, the learned model will not necessarily produce calibrated forecasts. Calibrated forecasts allow users to appropriately balance risks in decision-making, and it is particularly important that forecast models issue calibrated predictions for extreme events, since such outcomes often generate large socio-economic impacts. In this work, we study how the loss function used to train probabilistic forecast models can be adapted to improve the reliability of forecasts made for extreme events. We investigate loss functions based on weighted scoring rules, and additionally propose regularizing loss functions using a measure of tail miscalibration. We apply these approaches to a hierarchy of increasingly flexible forecast models for UK wind speeds, including simple parametric models, distributional regression networks, and conditional generative models. We demonstrate that state-of-the-art models do not issue calibrated forecasts for extreme wind speeds, and that the calibration of forecasts for extreme events can be improved by suitable adaptations to the loss function during model training. This introduces a trade-off between calibrated forecasts of extreme events and those of more common outcomes.}
+}
+
+@article{wessel2026precip,
+  abbr        = {ASCMO},
+  bibtex_show = {true},
+  title       = {Improving multisite precipitation generators based on generalised linear models},
+  author      = {Wessel, Jakob Benjamin and Chandler, Richard E.},
+  journal     = {Advances in Statistical Climatology, Meteorology and Oceanography},
+  volume      = {12},
+  number      = {1},
+  pages       = {149--172},
+  year        = {2026},
+  month       = may,
+  doi         = {10.5194/ascmo-12-149-2026},
+  abstract    = {Precipitation generators are statistical models used to produce synthetic sequences of (multisite) precipitation for hydrological applications such as flood risk assessment and water resource management. Among these, approaches based on generalized linear models (GLMs) are widely used and often perform competitively with state-of-the-art alternatives, but they face limitations in representing seasonal variation in extremes and in flexibly capturing covariate effects on the precipitation distribution. In this paper, we extend the GLM framework in two directions. First, we introduce generalised additive models for location, scale and shape (GAMLSS) for precipitation generation. These models allow the use of spline-based model terms to flexibly capture covariate effects and allow covariates to influence multiple distributional parameters, thereby increasing flexibility in representing variation in both the mean and variance of the precipitation distribution. Second, we adapt a transformed Gaussian fields approach to jointly account for spatial dependence in both precipitation occurrence and intensity, thus allowing for potential cross-dependence between the two. A further contribution is to investigate the sensitivity of model performance to data resolution, highlighting that rounding in data pre-processing can substantially affect the reproduction of extremes. Using a well-studied daily precipitation dataset, we demonstrate that these extensions improve the realism of simulated sequences, particularly with respect to extremes, and capture spatial dependence well in both occurrence and intensity.}
+}
+
+@article{groenke2026weathergen,
+  abbr        = {JGR: MLC},
+  bibtex_show = {true},
+  title       = {Stochastic weather generation for scenario-neutral impact assessments using simulation-based inference},
+  author      = {Groenke*, Brian and Wessel*, Jakob Benjamin and Miersch, Peter and Klein, Nadja and Zscheischler, Jakob},
+  journal     = {Journal of Geophysical Research: Machine Learning and Computation},
+  volume      = {3},
+  number      = {2},
+  pages       = {e2025JH000902},
+  year        = {2026},
+  month       = apr,
+  doi         = {10.1029/2025JH000902},
+  code        = {https://github.com/bgroenks96/wxsbi},
+  abstract    = {Scenario-neutral and robust adaptation methods assess the vulnerability of climate-sensitive systems against a range of plausible climate conditions, independent of the socioeconomic scenarios typically used in climate modeling. Stochastic weather generators facilitate such analyses by enabling fast and flexible simulation of meteorological time series based on historical observations. Long-term changes in climate conditions are often described via corresponding changes in summary statistics or climate indices. However, adjusting stochastic weather generators to produce simulations consistent with perturbed summary statistics is challenging, especially for more complex statistics and weather generator models. We refer to this problem as climatology matching. In this work, we make two key contributions: First, we develop a flexible framework for stochastic weather generation based on Generalized Additive Models for Location, Scale, and Shape (GAMLSS). The proposed weather generator is capable of efficiently and accurately simulating daily temperature (mean, minimum, and maximum) and precipitation time series over multi-decadal time scales after being calibrated on historical data. Second, we propose a fully probabilistic formulation of the climatology matching problem, to which we apply techniques from the field of simulation-based inference (SBI). We evaluate our approach using weather station data from the German Weather Service and demonstrate its potential for scenario-neutral impact assessment by simulating realistic daily meteorological time series under various climate change conditions. Our method provides an efficient and flexible framework for stress-testing climate impact models with the potential to enhance the robustness of scenario-neutral impact assessments.}
+}
+
+@article{spuler2026bams,
+  abbr        = {BAMS},
+  bibtex_show = {true},
+  title       = {Bias adjustment and the question of usable climate information: methodological assumptions and value judgments},
+  author      = {Spuler*, Fiona Raphaela and Wessel*, Jakob Benjamin and Jebeile, Julie and Zscheischler, Jakob and Shepherd, Theodore G.},
+  journal     = {Bulletin of the American Meteorological Society},
+  volume      = {107},
+  number      = {1},
+  pages       = {E79--E102},
+  year        = {2026},
+  month       = jan,
+  doi         = {10.1175/BAMS-D-25-0022.1},
+  abstract    = {Statistical bias adjustment has become a common practice to increase the relevance of climate model outputs for impact studies and other societal applications. However, the application of bias adjustment raises fundamental issues identified in the literature, calling into question the credibility of the adjusted climate information. In the attempt to address the usability gap of climate model output despite these unresolved issues, different approaches to bias adjustment have emerged—from applying a single consistent method across studies, selecting the most suitable method for a given use case, to employing an ensemble of bias adjustment methods. This paper examines how these approaches rest on both methodological assumptions and implicit value judgments about what constitutes usable climate information and for whom it is produced. Building on recent literature in the philosophy of science, we propose a framework for evaluating the usability of climate projections in the context of bias adjustment and apply this framework to evaluate the different approaches to bias adjustment. To evaluate the credibility of the adjusted climate information, the paper provides a detailed discussion of two key methodological assumptions underlying different approaches, the interpretation of performance differences of bias adjustment methods and changes to the climate model trend and ensemble through bias adjustment. Through this perspective, we aim to situate bias adjustment in the discussion around usable climate information and the production of climate services, while offering a practical discussion of assumptions for climate impact researchers and climate service practitioners working with bias adjustment methods.}
+}
+
+@article{wessel2025angular,
+  abbr        = {Extremes},
+  bibtex_show = {true},
+  title       = {Generative machine learning for multivariate angular simulation},
+  author      = {Wessel, Jakob Benjamin and Murphy-Barltrop, Callum J. R. and Simpson, Emma S.},
+  journal     = {Extremes},
+  volume      = {29},
+  pages       = {195--243},
+  year        = {2026},
+  month       = jan,
+  doi         = {10.1007/s10687-025-00522-7},
+  abstract    = {With the recent development of new geometric and angular-radial frameworks for multivariate extremes, reliably simulating from angular variables in moderate-to-high dimensions is of increasing importance. Empirical approaches have the benefit of simplicity, and work reasonably well in low dimensions, but as the number of variables increases, they can lack the required flexibility and scalability. Classical parametric models for angular variables, such as the von Mises–Fisher distribution (vMF), provide an alternative. Exploiting finite mixtures of vMF distributions increases their flexibility, but there are cases where, without letting the number of mixture components grow considerably, a mixture model with a fixed number of components is not sufficient to capture the intricate features that can arise in data. Owing to their flexibility, generative deep learning methods are able to capture complex data structures; they therefore have the potential to be useful in the simulation of multivariate angular variables. In this paper, we introduce a range of deep learning approaches for this task, including generative adversarial networks, normalizing flows and flow matching. We assess their performance via a range of metrics, and make comparisons to the more classical approach of using a finite mixture of vMF distributions. The methods are also applied to a metocean data set, with diagnostics indicating strong performance, demonstrating the applicability of such techniques to real-world, complex data structures.}
+}
+
+% ---------------------------------------------------------------- 2025
+
+
+@article{kelley2025wildfires,
+  abbr        = {ESSD},
+  bibtex_show = {true},
+  title       = {State of Wildfires 2024--2025},
+  author      = {Kelley, Douglas I. and Burton, Chantelle and Di Giuseppe, Francesca and Jones, Matthew W. and Barbosa, Maria L. F. and Brambleby, Esther and McNorton, Joe R. and Liu, Zhongwei and Bradley, Anna S. I. and Blackford, Katie and Burke, Eleanor and Ciavarella, Andrew and Di Tomaso, Enza and Eden, Jonathan and Ferreira, Igor José M. and Fiedler, Lukas and Hartley, Andrew J. and Keeping, Theodore R. and Lampe, Seppe and Lombardi, Anna and Mataveli, Guilherme and Qu, Yuquan and Silva, Patrícia S. and Spuler, Fiona R. and Steinmann, Carmen B. and Torres-Vázquez, Miguel Angel and Veiga, Renata and Van Wees, Dave and Wessel, Jakob B. and Wright, Emily and Bilbao, Bibiana and Bourbonnais, Mathieu and Gao, Cong and Di Bella, Carlos M. and Dintwe, Kebonye and Donovan, Victoria M. and Harris, Sarah and Kukavskaya, Elena A. and N'Dri, Aya Brigitte and Santín, Cristina and Selaya, Galia and Sjöström, Johan and Abatzoglou, John T. and Andela, Niels and Carmenta, Rachel and Chuvieco, Emilio and Giglio, Louis and Hamilton, Douglas S. and Hantson, Stijn and Meier, Sarah and Parrington, Mark and Sadegh, Mojtaba and San-Miguel-Ayanz, Jesus and Sedano, Fernando and Turco, Marco and Van Der Werf, Guido R. and Veraverbeke, Sander and Anderson, Liana O. and Clarke, Hamish and Fernandes, Paulo M. and Kolden, Crystal A.},
+  journal     = {Earth System Science Data},
+  volume      = {17},
+  number      = {10},
+  pages       = {5377--5488},
+  year        = {2025},
+  month       = oct,
+  doi         = {10.5194/essd-17-5377-2025},
+  abstract    = {Climate change is increasing the frequency and intensity of extreme wildfires globally, yet our understanding of these high-impact events remains uneven and shaped by media attention and regional research biases. The State of Wildfires project systematically tracks global and regional fire activity of each annual fire season, analyses the causes of prominent extreme wildfire events, and projects the likelihood of similar events occurring in future climate scenarios. This, its second annual report, covers the March 2024 to February 2025 fire season. During the 2024–2025 fire season, fire-related carbon (C) emissions totalled 2.2 Pg C, 9 % above average and the sixth highest on record since 2003, despite below-average global burned area (BA). Extreme fire seasons in South America's rainforests, dry forests, and wetlands and in Canada's boreal forests pushed up the global C emissions total. Fire C emissions were over 4 times above average in Bolivia, 3 times above average in Canada, and ∼ 50 % above average in Brazil and Venezuela. Wildfires in 2024–2025 caused 100 fatalities in Nepal, 34 in South Africa, and 31 in Los Angeles, with additional fatalities reported in Canada, Côte d'Ivoire, Portugal, and Türkiye. The Eaton and Palisades fires in Southern California caused 150 000 evacuations and USD 140 billion in damages. Communities in Brazil, Bolivia, Southern California, and northern India were exposed to fine particulate matter at concentrations 13–60 times WHO's daily air quality standards. We evaluated the causes and predictability of four extreme wildfire episodes from the 2024–2025 fire season, including in Northeast Amazonia (January–March 2024), the Pantanal–Chiquitano border regions of Brazil and Bolivia (August–September 2024), Southern California (January 2025), and the Congo Basin (July–August 2024). Anomalous weather created conditions for these regional extremes, while fuel availability and human ignitions shaped spatial patterns and temporal fire dynamics. In the three tropical regions, prolonged drought was the dominant fire enabler, whereas in California, extreme heat, wind, and antecedent fuel build-up were compounding enablers. Our attribution analyses show that climate change made extreme fire weather in Northeast Amazonia 30–70 times more likely, increasing BA roughly 4-fold compared to a scenario without climate change. In the Pantanal–Chiquitano, fire weather was 4–5 times more likely, with 35-fold increases in BA. Meanwhile, our analyses suggest that BA was 25 times higher in Southern California due to climate change. The Congo Basin's fire weather was 3–8 times more likely with climate change, with a 2.7-fold increase in BA. Socioeconomic changes since the pre-industrial period, including land-use change, also likely increased BA in Northeast Amazonia. Our models project that events on the scale of 2024–2025 will become up to 57 %, 34 %, and 50 % more frequent than in the modern era in Northeast Amazonia, the Pantanal–Chiquitano, and the Congo Basin, respectively, under a medium–high scenario (SSP370) by 2100. Climate action can limit the added risk, with frequency increases held to below 15 % in all three regions under a strong mitigation scenario (SSP126). In Southern California, the future trajectory of extreme fire likelihood remains highly uncertain due to poorly constrained climate–vegetation–fire interactions influencing fuel moisture, though our models suggest that risk may decline in future. This annual report from the State of Wildfires project integrates and advances cutting-edge fire observations and modelling with regional expertise to track changing global wildfire hazard, guiding policy and practice towards improved preparedness, mitigation, adaptation, and societal benefit. Thirteen new datasets and model codebases presented in this work are available from the State of Wildfires Project's Zenodo community, including updated annual statistics on wildfire extent (Jones et al., 2025; https://doi.org/10.5281/zenodo.15525674), outputs from modelling of fire causality using PoF model (Di Giuseppe, 2025; https://doi.org/10.24433/CO.8570224.v1) and codebase for the extreme event attribution/projections model, ConFLAME (Barbosa et al., 2025a, https://doi.org/10.5281/zenodo.16790787).}
+}
+
+@article{wessel2025wind,
+  abbr        = {MWR},
+  bibtex_show = {true},
+  title       = {Improving probabilistic forecasts of extreme wind speeds by training statistical post-processing models with weighted scoring rules},
+  author      = {Wessel, Jakob Benjamin and Ferro, Christopher A. T. and Evans, Gavin R. and Kwasniok, Frank},
+  journal     = {Monthly Weather Review},
+  volume      = {153},
+  pages       = {1489--1511},
+  year        = {2025},
+  month       = apr,
+  doi         = {10.1175/MWR-D-24-0151.1},
+  abstract    = {Accurate forecasts of extreme wind speeds are of high importance for many applications. Such forecasts are usually generated by ensembles of numerical weather prediction (NWP) models, which however can be biased and have errors in dispersion, thus necessitating the application of statistical post-processing techniques. In this work we aim to improve statistical post-processing models for probabilistic predictions of extreme wind speeds. We do this by adjusting the training procedure used to fit ensemble model output statistics (EMOS) models – a commonly applied post-processing technique – and propose estimating parameters using the so-called threshold-weighted continuous ranked probability score (twCRPS), a proper scoring rule that places special emphasis on predictions over a threshold. We show that training using the twCRPS leads to improved extreme event performance of post-processing models for a variety of thresholds. We find a distribution body-tail trade-off where improved performance for probabilistic predictions of extreme events comes with worse performance for predictions of the distribution body. However, we introduce strategies to mitigate this trade-off based on weighted training and linear pooling. Finally, we consider some synthetic experiments to explain the training impact of the twCRPS and derive closed-form expressions of the twCRPS for a number of distributions, giving the first such collection in the literature. The results will enable researchers and practitioners alike to improve the performance of probabilistic forecasting models for extremes and other events of interest.}
+}
+
+% ---------------------------------------------------------------- 2024
+
+@article{jones2024wildfires,
+  abbr        = {ESSD},
+  bibtex_show = {true},
+  title       = {State of Wildfires 2023--2024},
+  author      = {Jones, Matthew W. and Kelley, Douglas I. and Burton, Chantelle A. and Di Giuseppe, Francesca and Barbosa, Maria Lucia F. and Brambleby, Esther and Hartley, Andrew J. and Lombardi, Anna and Mataveli, Guilherme and McNorton, Joe R. and Spuler, Fiona R. and Wessel, Jakob B. and Abatzoglou, John T. and Anderson, Liana O. and Andela, Niels and Archibald, Sally and Armenteras, Dolors and Burke, Eleanor and Carmenta, Rachel and Chuvieco, Emilio and Clarke, Hamish and Doerr, Stefan H. and Fernandes, Paulo M. and Giglio, Louis and Hamilton, Douglas S. and Hantson, Stijn and Harris, Sarah and Jain, Piyush and Kolden, Crystal A. and Kurvits, Tiina and Lampe, Seppe and Meier, Sarah and New, Stacey and Parrington, Mark and Perron, Morgane M. G. and Qu, Yuquan and Ribeiro, Natasha S. and Saharjo, Bambang H. and San-Miguel-Ayanz, Jesus and Shuman, Jacquelyn K. and Tanpipat, Veerachai and van der Werf, Guido R. and Veraverbeke, Sander and Xanthopoulos, Gavriil},
+  journal     = {Earth System Science Data},
+  volume      = {16},
+  number      = {8},
+  pages       = {3601--3685},
+  year        = {2024},
+  month       = aug,
+  doi         = {10.5194/essd-16-3601-2024},
+  abstract    = {Climate change contributes to the increased frequency and intensity of wildfires globally, with significant impacts on society and the environment. However, our understanding of the global distribution of extreme fires remains skewed, primarily influenced by media coverage and regionalised research efforts. This inaugural State of Wildfires report systematically analyses fire activity worldwide, identifying extreme events from the March 2023–February 2024 fire season. We assess the causes, predictability, and attribution of these events to climate change and land use and forecast future risks under different climate scenarios. During the 2023–2024 fire season, 3.9×106 km2 burned globally, slightly below the average of previous seasons, but fire carbon (C) emissions were 16 % above average, totalling 2.4 Pg C. Global fire C emissions were increased by record emissions in Canadian boreal forests (over 9 times the average) and reduced by low emissions from African savannahs. Notable events included record-breaking fire extent and emissions in Canada, the largest recorded wildfire in the European Union (Greece), drought-driven fires in western Amazonia and northern parts of South America, and deadly fires in Hawaii (100 deaths) and Chile (131 deaths). Over 232 000 people were evacuated in Canada alone, highlighting the severity of human impact. Our analyses revealed that multiple drivers were needed to cause areas of extreme fire activity. In Canada and Greece, a combination of high fire weather and an abundance of dry fuels increased the probability of fires, whereas burned area anomalies were weaker in regions with lower fuel loads and higher direct suppression, particularly in Canada. Fire weather prediction in Canada showed a mild anomalous signal 1 to 2 months in advance, whereas events in Greece and Amazonia had shorter predictability horizons. Attribution analyses indicated that modelled anomalies in burned area were up to 40 %, 18 %, and 50 % higher due to climate change in Canada, Greece, and western Amazonia during the 2023–2024 fire season, respectively. Meanwhile, the probability of extreme fire seasons of these magnitudes has increased significantly due to anthropogenic climate change, with a 2.9–3.6-fold increase in likelihood of high fire weather in Canada and a 20.0–28.5-fold increase in Amazonia. By the end of the century, events of similar magnitude to 2023 in Canada are projected to occur 6.3–10.8 times more frequently under a medium–high emission scenario (SSP370). This report represents our first annual effort to catalogue extreme wildfire events, explain their occurrence, and predict future risks. By consolidating state-of-the-art wildfire science and delivering key insights relevant to policymakers, disaster management services, firefighting agencies, and land managers, we aim to enhance society's resilience to wildfires and promote advances in preparedness, mitigation, and adaptation. New datasets presented in this work are available from https://doi.org/10.5281/zenodo.11400539 (Jones et al., 2024) and https://doi.org/10.5281/zenodo.11420742 (Kelley et al., 2024a).}
+}
+
+@article{wessel2024leadtime,
+  abbr        = {QJRMS},
+  bibtex_show = {true},
+  title       = {Lead-time-continuous statistical postprocessing of ensemble weather forecasts},
+  author      = {Wessel, Jakob Benjamin and Ferro, Christopher A. T. and Kwasniok, Frank},
+  journal     = {Quarterly Journal of the Royal Meteorological Society},
+  volume      = {150},
+  number      = {761},
+  pages       = {2147--2167},
+  year        = {2024},
+  doi         = {10.1002/qj.4701},
+  note        = {University of Exeter PhD publication prize.},
+  abstract    = {Numerical weather prediction (NWP) ensembles often exhibit biases and errors in dispersion, so they need some form of postprocessing to yield sharp and well-calibrated probabilistic predictions. The output of NWP models is usually at a multiplicity of different lead times and, even though information is often required on this range of lead times, many postprocessing methods in the literature are applied either at a fixed lead time or by fitting individual models for each lead time. However, this is (1) computationally expensive because it requires the training of multiple models if users are interested in information at multiple lead times and (2) prohibitive because it restricts the data used for training postprocessing models and the usability of fitted models. This article investigates the lead-time dependence of postprocessing methods in the idealized Lorenz'96 system as well as temperature and wind-speed forecast data from the Met Office Global and Regional Ensemble Prediction System (MOGREPS-G). The results indicate that there is substantial regularity between the models fitted for different lead times and that one can fit models that are lead-time-continuous that work for multiple lead times simultaneously by including lead time as a covariate. These models achieve similar and, in small data situations, even improved performance compared with the classical lead-time-separated models, whilst saving substantial computation time.}
+}
+
+@article{spuler2024ibicus,
+  abbr        = {GMD},
+  bibtex_show = {true},
+  title       = {ibicus: a new open-source {P}ython package and comprehensive interface for statistical bias adjustment and evaluation in climate modelling (v1.0.1)},
+  author      = {Spuler*, Fiona Raphaela and Wessel*, Jakob Benjamin and Comyn-Platt, Edward and Varndell, James and Cagnazzo, Chiara},
+  journal     = {Geoscientific Model Development},
+  volume      = {17},
+  number      = {3},
+  pages       = {1249--1269},
+  year        = {2024},
+  month       = feb,
+  doi         = {10.5194/gmd-17-1249-2024},
+  code        = {https://github.com/ecmwf-projects/ibicus},
+  abstract    = {Statistical bias adjustment is commonly applied to climate models before using their results in impact studies. However, different methods based on a distributional mapping between observational and model data can change the simulated trends as well as the spatiotemporal and inter-variable consistency of the model, and are prone to misuse if not evaluated thoroughly. Despite the importance of these fundamental issues, researchers who apply bias adjustment currently do not have the tools at hand to compare different methods or evaluate the results sufficiently to detect possible distortions. Because of this, widespread practice in statistical bias adjustment is not aligned with recommendations from the academic literature. To address the practical issues impeding this, we introduce ibicus, an open-source Python package for the implementation of eight different peer-reviewed and widely used bias adjustment methods in a common framework and their comprehensive evaluation. The evaluation framework introduced in ibicus allows the user to analyse changes to the marginal, spatiotemporal and inter-variable structure of user-defined climate indices and distributional properties as well as any alteration of the climate change trend simulated in the model. Applying ibicus in a case study over the Mediterranean region using seven CMIP6 global circulation models, this study finds that the most appropriate bias adjustment method depends on the variable and impact studied, and that even methods that aim to preserve the climate change trend can modify it. These findings highlight the importance of use-case-specific selection of the method and the need for a rigorous evaluation of results when applying statistical bias adjustment.}
+}
